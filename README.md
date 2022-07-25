@@ -1,4 +1,4 @@
-# Bomb_Tester : 
+# Bomb_Tester : ( Quantum Programming using Qiskit ) 
 
 Its basically a game to check whether there is a bomb hidden inside a box or not.
 
