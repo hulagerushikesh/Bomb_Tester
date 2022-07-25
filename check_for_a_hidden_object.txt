@@ -1,0 +1,36 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Check for a hidden objects  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Project Name --> Bomb Tester using Quantum Programming.
+
+
+Task --> Check whether there is a bomb inside abox or not.
+
+Language --> quiskit (python)
+
+Tool --> Jupyter.
+
+
+Problem Description --> Your given a box or a closed container and you have determine whether the box is empty or it contains highly sensitive bomb.
+
+Cause due the problem --> As when your working in a lab where there are chemicals or explosive materials are in the air , and if the box contains the bomb
+			  and when it got in contact of the free photon it will explode or if there is a unknown bag or box you have found and it may contain 
+			  a bomb or may be not but detection of the object inside that unknown bag is too important. The results may leads very very harmful.
+
+Approach --> Measuring the qubit which will tells us whether or not to predict the that the bomb is inside the box or not.
+
+
+In deep --> We are going to have the qubit to represent our photon and a qubit to represent our bomb , then a beam splitter, and hardmard gates to make a quantum ciruit.
+
+Now lets understand the concept for getting more detail in order to get idea about this factors we are going to use.
+
+Condition 1 ) --> (No Bomb)
+Now we are going to have an arrangement of a beam splitter as shown in figure below , now when the photon hits the beam splitter , it enters a superposition of two 
+paths ( transmition and reflection paths), then we are arrange two mirrors to reflect these photon beams together again at a second beam splitter , here the photon
+beams interfere , say that they merge into a single transmitted beam. So if this situation happens means there is no bomb inside the box.
+
+
+Condition 2 ) --> (There is a Bomb)
+Now what is place a bomb between one of the photon beam path, And now when photon reache the bomb , the bomb will measure  which path the photon is in , which will 
+collapse the photon superpostion into either the top or bottom path. Now as if photon collapse with the bottom path, then the bomb will explodes, and if the photon 
+collapses with the top part and then reach the second beam splitter , and that will split into  a superposition of being transmitted or reflected. So if we detect the 
+photon is reflected after the second beam splitter we know for sure that there is a bomb inside the box without having set it off.
